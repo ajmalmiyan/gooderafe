@@ -12,6 +12,7 @@ nav {
 .navbar-wrapper {
     display:flex;
     width: 100%;
+    top: 0px;
 }
 .navbar-left {
     display:flex;
@@ -46,4 +47,50 @@ nav h1 {
   font-weight: 700;
   letter-spacing: 0em;
   text-align: left;
+}
+
+.search-box {
+    height: 100px;
+width: 90%;
+left: 143px;
+top: 314px;
+border-radius: 24px;
+background: #FFFFFF;
+box-shadow: 2px 12px 8px 2px rgba(0, 0, 0, 0.05);
+border-radius: 24px;
+display: flex;
+justify-content: space-between;
+padding: 25px;
+
+}
+.search-box svg{
+    /* height: 60px; */
+}
+.search-box div:nth-child(1){
+    width: 33%;
+}
+.search-box div:nth-child(2){
+    width: 33%;
+}
+.search-box input{
+    height: 60px;
+    width: 80%;
+    border: transparent;
+    outline: none;
+}
+.search-box button{
+    height: 60px;
+width: 25%;
+top: 334px;
+border-radius: 8px;
+background-color: #F07987;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: center;
+color: #ffffff;
+border: 1px solid transparent;
 }
