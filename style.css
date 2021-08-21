@@ -1,13 +1,49 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 nav {
-    background: linear-gradient(274.83deg, #5DB0DF 0.58%, #5D7ADF 74.3%);
-    height: 364px;
-    padding: 143px;
-    color: #ffffff;
-    font-family: 'Poppins', sans-serif;
+  background: linear-gradient(274.83deg, #5db0df 0.58%, #5d7adf 74.3%);
+  height: 364px;
+  padding: 143px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
 }
-nav h1{
+.navbar-wrapper {
+    display:flex;
+    width: 100%;
+}
+.navbar-left {
+    display:flex;
+    line-height: 27px;
+    width:33%;
+    justify-content: 
+    space-between;
+    float: left;
+}
+.navbar-right{
+    display:flex;
+    width:20%;
+    justify-content:
+    space-around;
+    float: right;
+}
+nav h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+}
+
+.job-hunt-wrapper {
+  display: flex;
+  margin: 2%;
+}
+.job-hunt-wrapper svg {
+}
+.job-hunt-wrapper p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: left;
 }
