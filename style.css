@@ -1,13 +1,15 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: "Poppins", sans-serif;
 }
 nav {
   background: linear-gradient(274.83deg, #5db0df 0.58%, #5d7adf 74.3%);
-  height: 364px;
+  /* height: 364px; */
   padding: 143px;
   color: #ffffff;
-  font-family: "Poppins", sans-serif;
+  /* position: fixed; */
+  top: 0%;
 }
 .navbar-wrapper {
     display:flex;
@@ -52,8 +54,8 @@ nav h1 {
 .search-box {
     height: 100px;
 width: 90%;
-left: 143px;
-top: 314px;
+/* left: 143px; */
+/* top: 314px; */
 border-radius: 24px;
 background: #FFFFFF;
 box-shadow: 2px 12px 8px 2px rgba(0, 0, 0, 0.05);
@@ -81,7 +83,7 @@ padding: 25px;
 .search-box button{
     height: 60px;
 width: 25%;
-top: 334px;
+/* top: 334px; */
 border-radius: 8px;
 background-color: #F07987;
 font-family: Poppins;
@@ -93,4 +95,84 @@ letter-spacing: 0em;
 text-align: center;
 color: #ffffff;
 border: 1px solid transparent;
+}
+
+main{
+    background: #E5E5E5;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 143px;
+    /* justify-content: space-around; */
+    
+}
+.producer-wrapper button{
+    /* position: absolute; */
+    width: 120px;
+    height: 40px;
+/* left: 542px; */
+/* top: 588px; */
+
+border: 2px solid #F07987;
+box-sizing: border-box;
+border-radius: 8px;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 21px;
+letter-spacing: 0em;
+/* text-align: left; */
+color: #F07987;
+background: none;
+float: right;
+}
+
+.producer-wrapper{
+    /* position: absolute; */
+width: 43%;
+/* height: 200px; */
+/* margin: 1%; */
+/* left: 737px; */
+/* top: 684px; */
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.05);
+border-radius: 24px;
+display: flex;
+padding: 25px;
+margin:10px;
+
+}
+
+.producer-wrapper h1{
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.producer-wrapper p{
+    font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: #7B7B7B;
+
+}
+.image-box{
+    height: 150px;
+width: 33%;
+/* left: 769px; */
+/* top: 709px; */
+border-radius: 16px;
+background: #E5E5E5;
+}
+
+.text-box{
+    width: 75%;
+    margin-left: 5%;
 }
