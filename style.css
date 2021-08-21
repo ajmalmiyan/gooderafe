@@ -1,0 +1,13 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    background: linear-gradient(274.83deg, #5DB0DF 0.58%, #5D7ADF 74.3%);
+    height: 364px;
+    padding: 143px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+nav h1{
+}
